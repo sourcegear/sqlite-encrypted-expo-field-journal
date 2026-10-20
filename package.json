@@ -1,0 +1,30 @@
+{
+  "name": "sqlite-encrypted-expo-field-journal-example",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "start": "node ./node_modules/expo/bin/cli start --dev-client",
+    "prebuild": "node ./node_modules/expo/bin/cli prebuild",
+    "android": "node ./node_modules/expo/bin/cli run:android",
+    "ios": "node ./node_modules/expo/bin/cli run:ios",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@sqlite-encrypted/expo": "3.54.0",
+    "expo": "~56.0.17",
+    "expo-crypto": "~56.0.4",
+    "expo-dev-client": "~56.0.24",
+    "expo-secure-store": "~56.0.4",
+    "expo-status-bar": "~56.0.4",
+    "react": "19.2.3",
+    "react-native": "0.85.3"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

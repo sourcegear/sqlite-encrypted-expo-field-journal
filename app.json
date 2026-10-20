@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Encrypted Field Journal",
+    "slug": "sqlite-encrypted-expo-field-journal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "newArchEnabled": true,
+    "plugins": [
+      "@sqlite-encrypted/expo",
+      "expo-secure-store"
+    ],
+    "ios": {
+      "bundleIdentifier": "org.sqlite.encrypted.examples.expojournal"
+    },
+    "android": {
+      "package": "org.sqlite.encrypted.examples.expojournal"
+    }
+  }
+}
