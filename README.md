@@ -22,8 +22,10 @@ This example uses SQLite SEE. It does not use SQLCipher.
 
 - Node.js 20 or newer.
 - An Android or iOS development environment supported by Expo.
-- A licensed SEE activation key. To try the sample before purchasing a license,
-  [request an evaluation key](http://sqlite.sourcegear.com/#evaluation).
+- A licensed SEE activation key.
+
+Free fully-featured demo keys are available from
+[sqlite.sourcegear.com](https://sqlite.sourcegear.com/#evaluation).
 
 The standard Expo Go client cannot run this application because Expo Go does
 not contain the SQLite.Encrypted native module. Build a custom development
